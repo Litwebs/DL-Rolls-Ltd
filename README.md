@@ -1,6 +1,6 @@
 # DL Rolls Ltd
 
-A responsive React / Vite catalogue for DL Rolls Ltd. Thirty illustrative products across toilet paper, kitchen rolls and wipes, priced from £2 to £200. No backend, checkout or payment integration.
+A responsive React / Vite catalogue for DL Rolls Ltd. Thirty illustrative products across toilet paper, kitchen rolls and wipes, priced from £5 to £200. No backend, checkout or payment integration.
 
 ## Development
 
