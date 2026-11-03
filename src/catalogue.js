@@ -36,7 +36,7 @@ const rows=[
  ['Dettol','Surface Wipes Business Bundle','wipes',6499,1440,'wipes',null,'Bulk pack'],
  ['DL Rolls','Workplace Wipes Bulk Bundle','wipes',11999,4000,'wipes',null,'Bulk pack']
 ];
-export const products=rows.map((r,i)=>({id:'dl-'+(1001+i),sku:'DL'+(1001+i),brand:r[0],name:r[1],category:r[2],price:r[3],units:r[4],unit:r[5],ply:r[6],badge:r[7],featured:[0,3,5,11,14,21,22,26].includes(i),image:categories.find(c=>c.id===r[2]).image}));
+export const products=rows.map((r,i)=>({id:'dl-'+(1001+i),sku:'DL'+(1001+i),brand:r[0],name:r[1],category:r[2],price:r[3],units:r[4],unit:r[5],ply:r[6],badge:r[7],featured:[0,3,5,11,14,21,22,26].includes(i),image:'dl-'+(1001+i)+'.webp'}));
 export const brands=[...new Set(products.map(p=>p.brand))].sort();
 export const money=pence=>new Intl.NumberFormat('en-GB',{style:'currency',currency:'GBP'}).format(pence/100);
 export function filterProducts({category='',query='',selectedBrands=[],maxPrice=20000,bulk=false,savedOnly=false,saved=[]}={}){

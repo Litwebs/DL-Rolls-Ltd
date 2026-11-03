@@ -1,6 +1,6 @@
 # DL Rolls Ltd
 
-A responsive React / Vite catalogue for DL Rolls Ltd, created by Litwebs. Thirty illustrative products across toilet paper, kitchen rolls and wipes, priced from £1.99 to £200.00. No backend, checkout or payment integration.
+A responsive React / Vite catalogue for DL Rolls Ltd. Thirty illustrative products across toilet paper, kitchen rolls and wipes, priced from £1.99 to £200.00. No backend, checkout or payment integration.
 
 ## Development
 
@@ -15,7 +15,7 @@ npm run build
 
 ## GitHub Pages
 
-The workflow at `.github/workflows/deploy-pages.yml` follows the same build-and-artifact GitHub Actions deployment approach as Litwebs/The-healthy-hub. On push to main it installs with npm ci, checks catalogue logic, builds dist, and deploys to GitHub Pages. Repository Settings → Pages → Source must be **GitHub Actions**.
+The workflow at `.github/workflows/deploy-pages.yml` uses a build-and-artifact GitHub Actions deployment. On push to main it installs with npm ci, checks catalogue logic, builds dist, and deploys to GitHub Pages. Repository Settings → Pages → Source must be **GitHub Actions**.
 
 Vite base is `/DL-Rolls-Ltd/`. Hash routing makes product links and page refreshes reliable on Pages. `npm run deploy` is also provided for optional manual publishing to a gh-pages branch; use either this method or Actions, not both simultaneously. The default deployment uses Actions.
 
