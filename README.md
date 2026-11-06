@@ -27,7 +27,7 @@ Edit `src/catalogue.js` for the catalogue and business details. The current bran
 
 Products can be added to a local enquiry list with quantities. The list and saved product IDs persist only in the visitor's browser. Both the general enquiry form and product enquiry form prepare a message; a visitor chooses to open their email application and send it. Copy and download options are available for the product enquiry. Nothing is transmitted by the form itself. No payment, order fulfilment, account or inventory backend is included.
 
-Contact: dlrollsltd@hotmail.com · 07851 931610.
+Contact: dlrollsltd@hotmail.com · 07851 931615.
 
 ## Design and compatibility
 

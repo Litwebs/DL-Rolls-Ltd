@@ -51,4 +51,4 @@ export function cleanBasket(value){
 }
 export function basketTotal(basket){return products.reduce((sum,p)=>sum+p.price*(basket[p.id]||0),0);}
 export function basketCount(basket){return Object.values(basket).reduce((a,n)=>a+n,0);}
-export const company={name:'DL Rolls Ltd',email:'dlrollsltd@hotmail.com',phone:'07851 931610',tel:'07851931610'};
+export const company={name:'DL Rolls Ltd',email:'dlrollsltd@hotmail.com',phone:'07851 931615',tel:'07851931615'};
